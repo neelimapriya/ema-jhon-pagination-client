@@ -3,7 +3,7 @@ import './Header.css';
 import logo from '../../images/Logo.svg';
 import { Link } from 'react-router-dom';
 
-const Header = () => {
+const Header = () => { 
     return (
         <nav className='header'>
             <img src={logo} alt="" />
